@@ -11,8 +11,8 @@ op.add_argument("--incognito")
 op.add_argument('--disable-notifications')
 
 # Login Credentials -pass your parameters username and password
-salesforce_username = ""
-salesforce_password=""
+salesforce_username = "gokul.gangadhara-6rcu@force.com"
+salesforce_password="Tiger@1234"
 
 @pytest.fixture(scope='function')
 def setup():
